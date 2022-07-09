@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import styles from "../../styles/Login.module.css"
 import axios from "axios"
 
-const login = () => {
+const Login = () => {
     const [username,setUsername] = useState(null)
     const [password,setPassword] = useState(null)
     const [error,setError] = useState(null)
@@ -45,4 +45,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
